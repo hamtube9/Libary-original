@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sach"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="Sach" />
+        <item
+            android:id="@+id/nav_them_sach"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Them Sach" />
+        <item
+            android:id="@+id/nav_loai_sach"
+            android:icon="@drawable/ic_view_list_black_24dp"
+            android:title="Loai Sach" />
+        <item
+            android:id="@+id/nav_them_loai_sach"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Them Loai Sach" />
+        <item
+            android:id="@+id/nav_User"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="User" />
+        <item
+            android:id="@+id/nav_change_pass"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Doi Password" />
+        <item
+            android:id="@+id/nav_hoa_don"
+            android:icon="@drawable/ic_attach_money_black_24dp"
+            android:title="Hoa Don" />
+        <item
+            android:id="@+id/nav_them_hoadon"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="THem Hoa Don" />
+
+    </group>
+
+
+
+</menu>

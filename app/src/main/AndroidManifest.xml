@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="d.lmao.libary">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SuaLoaiSachActivity"
+            android:parentActivityName=".ListLoaiSachActivity"></activity>
+
+        <activity android:name=".ListLoaiSachActivity"
+            android:parentActivityName=".MainActivity"/>
+
+        <activity android:name=".ThemLoaiSachActivity"
+            android:parentActivityName=".ListLoaiSachActivity"/>
+
+        <activity android:name=".ThemHoaDonActivity"
+            android:parentActivityName=".ListHoaDonActivity"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/blackbar" />
+        <activity android:name=".HelloActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogInActivity"
+            android:label="Sign in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListSachActivity"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
+            android:name=".SignInActivity"
+            android:parentActivityName=".LogInActivity" />
+        <activity
+            android:name=".UserActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ListHoaDonActivity"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SuaSachActivity"
+            android:parentActivityName=".ListSachActivity" />
+        <activity
+            android:name=".SuaHoaDonActivity"
+            android:parentActivityName=".ListHoaDonActivity" />
+        <activity
+            android:name=".ChangePasswordActivity"
+            android:parentActivityName=".UserActivity" />
+        <activity
+            android:name=".ThemSachActivity"
+            android:parentActivityName=".ListSachActivity" />
+    </application>
+
+</manifest>
